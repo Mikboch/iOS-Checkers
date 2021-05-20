@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5BBB387F26566D3900A94949 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBB387E26566D3900A94949 /* AppDelegate.swift */; };
+		5BBB388126566D3900A94949 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBB388026566D3900A94949 /* SceneDelegate.swift */; };
+		5BBB388326566D3900A94949 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBB388226566D3900A94949 /* ContentView.swift */; };
+		5BBB388626566D3900A94949 /* Checkers.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5BBB388426566D3900A94949 /* Checkers.xcdatamodeld */; };
+		5BBB388826566D3B00A94949 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BBB388726566D3B00A94949 /* Assets.xcassets */; };
+		5BBB388B26566D3B00A94949 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BBB388A26566D3B00A94949 /* Preview Assets.xcassets */; };
+		5BBB388E26566D3B00A94949 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BBB388C26566D3B00A94949 /* LaunchScreen.storyboard */; };
+		5BBB389926566D3B00A94949 /* CheckersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBB389826566D3B00A94949 /* CheckersTests.swift */; };
+		5BBB38A426566D3B00A94949 /* CheckersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBB38A326566D3B00A94949 /* CheckersUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5BBB389526566D3B00A94949 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BBB387326566D3900A94949 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BBB387A26566D3900A94949;
+			remoteInfo = Checkers;
+		};
+		5BBB38A026566D3B00A94949 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BBB387326566D3900A94949 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BBB387A26566D3900A94949;
+			remoteInfo = Checkers;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5BBB387B26566D3900A94949 /* Checkers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Checkers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BBB387E26566D3900A94949 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5BBB388026566D3900A94949 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5BBB388226566D3900A94949 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5BBB388526566D3900A94949 /* Checkers.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Checkers.xcdatamodel; sourceTree = "<group>"; };
+		5BBB388726566D3B00A94949 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5BBB388A26566D3B00A94949 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5BBB388D26566D3B00A94949 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5BBB388F26566D3B00A94949 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BBB389426566D3B00A94949 /* CheckersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BBB389826566D3B00A94949 /* CheckersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckersTests.swift; sourceTree = "<group>"; };
+		5BBB389A26566D3B00A94949 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BBB389F26566D3B00A94949 /* CheckersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BBB38A326566D3B00A94949 /* CheckersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckersUITests.swift; sourceTree = "<group>"; };
+		5BBB38A526566D3B00A94949 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BBB387826566D3900A94949 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BBB389126566D3B00A94949 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BBB389C26566D3B00A94949 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5BBB387226566D3900A94949 = {
+			isa = PBXGroup;
+			children = (
+				5BBB387D26566D3900A94949 /* Checkers */,
+				5BBB389726566D3B00A94949 /* CheckersTests */,
+				5BBB38A226566D3B00A94949 /* CheckersUITests */,
+				5BBB387C26566D3900A94949 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5BBB387C26566D3900A94949 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BBB387B26566D3900A94949 /* Checkers.app */,
+				5BBB389426566D3B00A94949 /* CheckersTests.xctest */,
+				5BBB389F26566D3B00A94949 /* CheckersUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BBB387D26566D3900A94949 /* Checkers */ = {
+			isa = PBXGroup;
+			children = (
+				5BBB387E26566D3900A94949 /* AppDelegate.swift */,
+				5BBB388026566D3900A94949 /* SceneDelegate.swift */,
+				5BBB388226566D3900A94949 /* ContentView.swift */,
+				5BBB388726566D3B00A94949 /* Assets.xcassets */,
+				5BBB388C26566D3B00A94949 /* LaunchScreen.storyboard */,
+				5BBB388F26566D3B00A94949 /* Info.plist */,
+				5BBB388426566D3900A94949 /* Checkers.xcdatamodeld */,
+				5BBB388926566D3B00A94949 /* Preview Content */,
+			);
+			path = Checkers;
+			sourceTree = "<group>";
+		};
+		5BBB388926566D3B00A94949 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5BBB388A26566D3B00A94949 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5BBB389726566D3B00A94949 /* CheckersTests */ = {
+			isa = PBXGroup;
+			children = (
+				5BBB389826566D3B00A94949 /* CheckersTests.swift */,
+				5BBB389A26566D3B00A94949 /* Info.plist */,
+			);
+			path = CheckersTests;
+			sourceTree = "<group>";
+		};
+		5BBB38A226566D3B00A94949 /* CheckersUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5BBB38A326566D3B00A94949 /* CheckersUITests.swift */,
+				5BBB38A526566D3B00A94949 /* Info.plist */,
+			);
+			path = CheckersUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BBB387A26566D3900A94949 /* Checkers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BBB38A826566D3B00A94949 /* Build configuration list for PBXNativeTarget "Checkers" */;
+			buildPhases = (
+				5BBB387726566D3900A94949 /* Sources */,
+				5BBB387826566D3900A94949 /* Frameworks */,
+				5BBB387926566D3900A94949 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Checkers;
+			productName = Checkers;
+			productReference = 5BBB387B26566D3900A94949 /* Checkers.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5BBB389326566D3B00A94949 /* CheckersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BBB38AB26566D3B00A94949 /* Build configuration list for PBXNativeTarget "CheckersTests" */;
+			buildPhases = (
+				5BBB389026566D3B00A94949 /* Sources */,
+				5BBB389126566D3B00A94949 /* Frameworks */,
+				5BBB389226566D3B00A94949 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BBB389626566D3B00A94949 /* PBXTargetDependency */,
+			);
+			name = CheckersTests;
+			productName = CheckersTests;
+			productReference = 5BBB389426566D3B00A94949 /* CheckersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5BBB389E26566D3B00A94949 /* CheckersUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BBB38AE26566D3B00A94949 /* Build configuration list for PBXNativeTarget "CheckersUITests" */;
+			buildPhases = (
+				5BBB389B26566D3B00A94949 /* Sources */,
+				5BBB389C26566D3B00A94949 /* Frameworks */,
+				5BBB389D26566D3B00A94949 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BBB38A126566D3B00A94949 /* PBXTargetDependency */,
+			);
+			name = CheckersUITests;
+			productName = CheckersUITests;
+			productReference = 5BBB389F26566D3B00A94949 /* CheckersUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BBB387326566D3900A94949 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					5BBB387A26566D3900A94949 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					5BBB389326566D3B00A94949 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 5BBB387A26566D3900A94949;
+					};
+					5BBB389E26566D3B00A94949 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 5BBB387A26566D3900A94949;
+					};
+				};
+			};
+			buildConfigurationList = 5BBB387626566D3900A94949 /* Build configuration list for PBXProject "Checkers" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5BBB387226566D3900A94949;
+			productRefGroup = 5BBB387C26566D3900A94949 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BBB387A26566D3900A94949 /* Checkers */,
+				5BBB389326566D3B00A94949 /* CheckersTests */,
+				5BBB389E26566D3B00A94949 /* CheckersUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BBB387926566D3900A94949 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BBB388E26566D3B00A94949 /* LaunchScreen.storyboard in Resources */,
+				5BBB388B26566D3B00A94949 /* Preview Assets.xcassets in Resources */,
+				5BBB388826566D3B00A94949 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BBB389226566D3B00A94949 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BBB389D26566D3B00A94949 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BBB387726566D3900A94949 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BBB387F26566D3900A94949 /* AppDelegate.swift in Sources */,
+				5BBB388626566D3900A94949 /* Checkers.xcdatamodeld in Sources */,
+				5BBB388126566D3900A94949 /* SceneDelegate.swift in Sources */,
+				5BBB388326566D3900A94949 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BBB389026566D3B00A94949 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BBB389926566D3B00A94949 /* CheckersTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BBB389B26566D3B00A94949 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BBB38A426566D3B00A94949 /* CheckersUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5BBB389626566D3B00A94949 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BBB387A26566D3900A94949 /* Checkers */;
+			targetProxy = 5BBB389526566D3B00A94949 /* PBXContainerItemProxy */;
+		};
+		5BBB38A126566D3B00A94949 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BBB387A26566D3900A94949 /* Checkers */;
+			targetProxy = 5BBB38A026566D3B00A94949 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5BBB388C26566D3B00A94949 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BBB388D26566D3B00A94949 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5BBB38A626566D3B00A94949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5BBB38A726566D3B00A94949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5BBB38A926566D3B00A94949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Checkers/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Checkers/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-include--iostream------using-namespace-std------int-main-------------cout----1.-Olga-Lopacka---endl-------------------cout----2.-WIG20BX3S1---endl-----------------------------cout----3.-Budownictwo---endl---------------------------------------cout----4.-Anna-Lewandowska---endl---------------------------------------------cout----5.-Joanna-Kulig----endl------------------------------------------------------cout----6.-Beyonce-Knowles---endl---------------------------------------------------------------cout----7.-John-Ronald-Reuel-Tolkien---endl---------------------------------------------------------------------cout----8.-Co-ma-wisiec-nie-utonie---endl----------------------------------------------------------------------------cout----9.-Przejsc-przez-zycie-tak-aby-pozostaly-slady---endl------------------------------------------------------------------------------------cout----10.-Znowu-ktos-mnie-podglada---endl-------cout----Lekko-skrobie-do-drzwi---endl-------cout----Strasznym-okiem-cyklopa---endl--------cout----Radzi--gromi-i-drwi---endl--------------------------------------------------------------------------------------------------------------------------------cout----Moj-jest-ten-kawalek-podlogi---endl--------cout----Nie-mowcie-mi-wiec-co-mam-robic---endl---------cout----Moj-jest-ten-kawalek-podlogi---endl--------cout----Nie-mowcie-mi-wiec-co-mam-robic---endl--------------------------------------------------------------------------------------------------------------------------------------------------------------cout----Moj-jest-ten-kawalek-podlogi---endl--------cout----Nie-mowcie-mi-wiec-co-mam-robic---endl---------cout----Moj-jest-ten-kawalek-podlogi---endl--------cout----Nie-mowcie-mi-wiec-co-mam-robic---endl---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------cout----Moj-jest-ten-kawalek-podlogi---endl--------cout----Nie-mowcie-mi-wiec-co-mam-robic---endl---------cout----Moj-jest-ten-kawalek-podlogi---endl--------cout----Nie-mowcie-mi-wiec-co-mam-robic---endl-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------cout----Meble-juz-polamalem---endl---------cout----Nowy-lad-zrobic-chce---endl-------cout----Tynk-ze-scian-juz--zdrapalem---endl-------cout----Zamurowac-czas-drzwi---endl-------------------------------------------------------------------------------------------------------------------------------------------------------------cout----Moj-jest-ten-kawalek-podlogi---endl--------cout----Nie-mowcie-mi-wiec-co-mam-robic---endl---------cout----Moj-jest-ten-kawalek-podlogi---endl--------cout----Nie-mowcie-mi-wiec-co-mam-robic---endl---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------cout----Moj-jest-ten-kawalek-podlogi---endl--------cout----Nie-mowcie-mi-wiec-co-mam-robic---endl---------cout----Moj-jest-ten-kawalek-podlogi---endl--------cout----Nie-mowcie-mi-wiec-co-mam-robic---endl----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------.Checkers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5BBB38AA26566D3B00A94949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Checkers/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Checkers/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-include--iostream------using-namespace-std------int-main-------------cout----1.-Olga-Lopacka---endl-------------------cout----2.-WIG20BX3S1---endl-----------------------------cout----3.-Budownictwo---endl---------------------------------------cout----4.-Anna-Lewandowska---endl---------------------------------------------cout----5.-Joanna-Kulig----endl------------------------------------------------------cout----6.-Beyonce-Knowles---endl---------------------------------------------------------------cout----7.-John-Ronald-Reuel-Tolkien---endl---------------------------------------------------------------------cout----8.-Co-ma-wisiec-nie-utonie---endl----------------------------------------------------------------------------cout----9.-Przejsc-przez-zycie-tak-aby-pozostaly-slady---endl------------------------------------------------------------------------------------cout----10.-Znowu-ktos-mnie-podglada---endl-------cout----Lekko-skrobie-do-drzwi---endl-------cout----Strasznym-okiem-cyklopa---endl--------cout----Radzi--gromi-i-drwi---endl--------------------------------------------------------------------------------------------------------------------------------cout----Moj-jest-ten-kawalek-podlogi---endl--------cout----Nie-mowcie-mi-wiec-co-mam-robic---endl---------cout----Moj-jest-ten-kawalek-podlogi---endl--------cout----Nie-mowcie-mi-wiec-co-mam-robic---endl--------------------------------------------------------------------------------------------------------------------------------------------------------------cout----Moj-jest-ten-kawalek-podlogi---endl--------cout----Nie-mowcie-mi-wiec-co-mam-robic---endl---------cout----Moj-jest-ten-kawalek-podlogi---endl--------cout----Nie-mowcie-mi-wiec-co-mam-robic---endl---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------cout----Moj-jest-ten-kawalek-podlogi---endl--------cout----Nie-mowcie-mi-wiec-co-mam-robic---endl---------cout----Moj-jest-ten-kawalek-podlogi---endl--------cout----Nie-mowcie-mi-wiec-co-mam-robic---endl-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------cout----Meble-juz-polamalem---endl---------cout----Nowy-lad-zrobic-chce---endl-------cout----Tynk-ze-scian-juz--zdrapalem---endl-------cout----Zamurowac-czas-drzwi---endl-------------------------------------------------------------------------------------------------------------------------------------------------------------cout----Moj-jest-ten-kawalek-podlogi---endl--------cout----Nie-mowcie-mi-wiec-co-mam-robic---endl---------cout----Moj-jest-ten-kawalek-podlogi---endl--------cout----Nie-mowcie-mi-wiec-co-mam-robic---endl---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------cout----Moj-jest-ten-kawalek-podlogi---endl--------cout----Nie-mowcie-mi-wiec-co-mam-robic---endl---------cout----Moj-jest-ten-kawalek-podlogi---endl--------cout----Nie-mowcie-mi-wiec-co-mam-robic---endl----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------.Checkers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5BBB38AC26566D3B00A94949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CheckersTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-include--iostream------using-namespace-std------int-main-------------cout----1.-Olga-Lopacka---endl-------------------cout----2.-WIG20BX3S1---endl-----------------------------cout----3.-Budownictwo---endl---------------------------------------cout----4.-Anna-Lewandowska---endl---------------------------------------------cout----5.-Joanna-Kulig----endl------------------------------------------------------cout----6.-Beyonce-Knowles---endl---------------------------------------------------------------cout----7.-John-Ronald-Reuel-Tolkien---endl---------------------------------------------------------------------cout----8.-Co-ma-wisiec-nie-utonie---endl----------------------------------------------------------------------------cout----9.-Przejsc-przez-zycie-tak-aby-pozostaly-slady---endl------------------------------------------------------------------------------------cout----10.-Znowu-ktos-mnie-podglada---endl-------cout----Lekko-skrobie-do-drzwi---endl-------cout----Strasznym-okiem-cyklopa---endl--------cout----Radzi--gromi-i-drwi---endl--------------------------------------------------------------------------------------------------------------------------------cout----Moj-jest-ten-kawalek-podlogi---endl--------cout----Nie-mowcie-mi-wiec-co-mam-robic---endl---------cout----Moj-jest-ten-kawalek-podlogi---endl--------cout----Nie-mowcie-mi-wiec-co-mam-robic---endl--------------------------------------------------------------------------------------------------------------------------------------------------------------cout----Moj-jest-ten-kawalek-podlogi---endl--------cout----Nie-mowcie-mi-wiec-co-mam-robic---endl---------cout----Moj-jest-ten-kawalek-podlogi---endl--------cout----Nie-mowcie-mi-wiec-co-mam-robic---endl---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------cout----Moj-jest-ten-kawalek-podlogi---endl--------cout----Nie-mowcie-mi-wiec-co-mam-robic---endl---------cout----Moj-jest-ten-kawalek-podlogi---endl--------cout----Nie-mowcie-mi-wiec-co-mam-robic---endl-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------cout----Meble-juz-polamalem---endl---------cout----Nowy-lad-zrobic-chce---endl-------cout----Tynk-ze-scian-juz--zdrapalem---endl-------cout----Zamurowac-czas-drzwi---endl-------------------------------------------------------------------------------------------------------------------------------------------------------------cout----Moj-jest-ten-kawalek-podlogi---endl--------cout----Nie-mowcie-mi-wiec-co-mam-robic---endl---------cout----Moj-jest-ten-kawalek-podlogi---endl--------cout----Nie-mowcie-mi-wiec-co-mam-robic---endl---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------cout----Moj-jest-ten-kawalek-podlogi---endl--------cout----Nie-mowcie-mi-wiec-co-mam-robic---endl---------cout----Moj-jest-ten-kawalek-podlogi---endl--------cout----Nie-mowcie-mi-wiec-co-mam-robic---endl----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------.CheckersTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Checkers.app/Checkers";
+			};
+			name = Debug;
+		};
+		5BBB38AD26566D3B00A94949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CheckersTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-include--iostream------using-namespace-std------int-main-------------cout----1.-Olga-Lopacka---endl-------------------cout----2.-WIG20BX3S1---endl-----------------------------cout----3.-Budownictwo---endl---------------------------------------cout----4.-Anna-Lewandowska---endl---------------------------------------------cout----5.-Joanna-Kulig----endl------------------------------------------------------cout----6.-Beyonce-Knowles---endl---------------------------------------------------------------cout----7.-John-Ronald-Reuel-Tolkien---endl---------------------------------------------------------------------cout----8.-Co-ma-wisiec-nie-utonie---endl----------------------------------------------------------------------------cout----9.-Przejsc-przez-zycie-tak-aby-pozostaly-slady---endl------------------------------------------------------------------------------------cout----10.-Znowu-ktos-mnie-podglada---endl-------cout----Lekko-skrobie-do-drzwi---endl-------cout----Strasznym-okiem-cyklopa---endl--------cout----Radzi--gromi-i-drwi---endl--------------------------------------------------------------------------------------------------------------------------------cout----Moj-jest-ten-kawalek-podlogi---endl--------cout----Nie-mowcie-mi-wiec-co-mam-robic---endl---------cout----Moj-jest-ten-kawalek-podlogi---endl--------cout----Nie-mowcie-mi-wiec-co-mam-robic---endl--------------------------------------------------------------------------------------------------------------------------------------------------------------cout----Moj-jest-ten-kawalek-podlogi---endl--------cout----Nie-mowcie-mi-wiec-co-mam-robic---endl---------cout----Moj-jest-ten-kawalek-podlogi---endl--------cout----Nie-mowcie-mi-wiec-co-mam-robic---endl---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------cout----Moj-jest-ten-kawalek-podlogi---endl--------cout----Nie-mowcie-mi-wiec-co-mam-robic---endl---------cout----Moj-jest-ten-kawalek-podlogi---endl--------cout----Nie-mowcie-mi-wiec-co-mam-robic---endl-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------cout----Meble-juz-polamalem---endl---------cout----Nowy-lad-zrobic-chce---endl-------cout----Tynk-ze-scian-juz--zdrapalem---endl-------cout----Zamurowac-czas-drzwi---endl-------------------------------------------------------------------------------------------------------------------------------------------------------------cout----Moj-jest-ten-kawalek-podlogi---endl--------cout----Nie-mowcie-mi-wiec-co-mam-robic---endl---------cout----Moj-jest-ten-kawalek-podlogi---endl--------cout----Nie-mowcie-mi-wiec-co-mam-robic---endl---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------cout----Moj-jest-ten-kawalek-podlogi---endl--------cout----Nie-mowcie-mi-wiec-co-mam-robic---endl---------cout----Moj-jest-ten-kawalek-podlogi---endl--------cout----Nie-mowcie-mi-wiec-co-mam-robic---endl----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------.CheckersTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Checkers.app/Checkers";
+			};
+			name = Release;
+		};
+		5BBB38AF26566D3B00A94949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CheckersUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-include--iostream------using-namespace-std------int-main-------------cout----1.-Olga-Lopacka---endl-------------------cout----2.-WIG20BX3S1---endl-----------------------------cout----3.-Budownictwo---endl---------------------------------------cout----4.-Anna-Lewandowska---endl---------------------------------------------cout----5.-Joanna-Kulig----endl------------------------------------------------------cout----6.-Beyonce-Knowles---endl---------------------------------------------------------------cout----7.-John-Ronald-Reuel-Tolkien---endl---------------------------------------------------------------------cout----8.-Co-ma-wisiec-nie-utonie---endl----------------------------------------------------------------------------cout----9.-Przejsc-przez-zycie-tak-aby-pozostaly-slady---endl------------------------------------------------------------------------------------cout----10.-Znowu-ktos-mnie-podglada---endl-------cout----Lekko-skrobie-do-drzwi---endl-------cout----Strasznym-okiem-cyklopa---endl--------cout----Radzi--gromi-i-drwi---endl--------------------------------------------------------------------------------------------------------------------------------cout----Moj-jest-ten-kawalek-podlogi---endl--------cout----Nie-mowcie-mi-wiec-co-mam-robic---endl---------cout----Moj-jest-ten-kawalek-podlogi---endl--------cout----Nie-mowcie-mi-wiec-co-mam-robic---endl--------------------------------------------------------------------------------------------------------------------------------------------------------------cout----Moj-jest-ten-kawalek-podlogi---endl--------cout----Nie-mowcie-mi-wiec-co-mam-robic---endl---------cout----Moj-jest-ten-kawalek-podlogi---endl--------cout----Nie-mowcie-mi-wiec-co-mam-robic---endl---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------cout----Moj-jest-ten-kawalek-podlogi---endl--------cout----Nie-mowcie-mi-wiec-co-mam-robic---endl---------cout----Moj-jest-ten-kawalek-podlogi---endl--------cout----Nie-mowcie-mi-wiec-co-mam-robic---endl-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------cout----Meble-juz-polamalem---endl---------cout----Nowy-lad-zrobic-chce---endl-------cout----Tynk-ze-scian-juz--zdrapalem---endl-------cout----Zamurowac-czas-drzwi---endl-------------------------------------------------------------------------------------------------------------------------------------------------------------cout----Moj-jest-ten-kawalek-podlogi---endl--------cout----Nie-mowcie-mi-wiec-co-mam-robic---endl---------cout----Moj-jest-ten-kawalek-podlogi---endl--------cout----Nie-mowcie-mi-wiec-co-mam-robic---endl---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------cout----Moj-jest-ten-kawalek-podlogi---endl--------cout----Nie-mowcie-mi-wiec-co-mam-robic---endl---------cout----Moj-jest-ten-kawalek-podlogi---endl--------cout----Nie-mowcie-mi-wiec-co-mam-robic---endl----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------.CheckersUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Checkers;
+			};
+			name = Debug;
+		};
+		5BBB38B026566D3B00A94949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CheckersUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-include--iostream------using-namespace-std------int-main-------------cout----1.-Olga-Lopacka---endl-------------------cout----2.-WIG20BX3S1---endl-----------------------------cout----3.-Budownictwo---endl---------------------------------------cout----4.-Anna-Lewandowska---endl---------------------------------------------cout----5.-Joanna-Kulig----endl------------------------------------------------------cout----6.-Beyonce-Knowles---endl---------------------------------------------------------------cout----7.-John-Ronald-Reuel-Tolkien---endl---------------------------------------------------------------------cout----8.-Co-ma-wisiec-nie-utonie---endl----------------------------------------------------------------------------cout----9.-Przejsc-przez-zycie-tak-aby-pozostaly-slady---endl------------------------------------------------------------------------------------cout----10.-Znowu-ktos-mnie-podglada---endl-------cout----Lekko-skrobie-do-drzwi---endl-------cout----Strasznym-okiem-cyklopa---endl--------cout----Radzi--gromi-i-drwi---endl--------------------------------------------------------------------------------------------------------------------------------cout----Moj-jest-ten-kawalek-podlogi---endl--------cout----Nie-mowcie-mi-wiec-co-mam-robic---endl---------cout----Moj-jest-ten-kawalek-podlogi---endl--------cout----Nie-mowcie-mi-wiec-co-mam-robic---endl--------------------------------------------------------------------------------------------------------------------------------------------------------------cout----Moj-jest-ten-kawalek-podlogi---endl--------cout----Nie-mowcie-mi-wiec-co-mam-robic---endl---------cout----Moj-jest-ten-kawalek-podlogi---endl--------cout----Nie-mowcie-mi-wiec-co-mam-robic---endl---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------cout----Moj-jest-ten-kawalek-podlogi---endl--------cout----Nie-mowcie-mi-wiec-co-mam-robic---endl---------cout----Moj-jest-ten-kawalek-podlogi---endl--------cout----Nie-mowcie-mi-wiec-co-mam-robic---endl-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------cout----Meble-juz-polamalem---endl---------cout----Nowy-lad-zrobic-chce---endl-------cout----Tynk-ze-scian-juz--zdrapalem---endl-------cout----Zamurowac-czas-drzwi---endl-------------------------------------------------------------------------------------------------------------------------------------------------------------cout----Moj-jest-ten-kawalek-podlogi---endl--------cout----Nie-mowcie-mi-wiec-co-mam-robic---endl---------cout----Moj-jest-ten-kawalek-podlogi---endl--------cout----Nie-mowcie-mi-wiec-co-mam-robic---endl---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------cout----Moj-jest-ten-kawalek-podlogi---endl--------cout----Nie-mowcie-mi-wiec-co-mam-robic---endl---------cout----Moj-jest-ten-kawalek-podlogi---endl--------cout----Nie-mowcie-mi-wiec-co-mam-robic---endl----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------.CheckersUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Checkers;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BBB387626566D3900A94949 /* Build configuration list for PBXProject "Checkers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BBB38A626566D3B00A94949 /* Debug */,
+				5BBB38A726566D3B00A94949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BBB38A826566D3B00A94949 /* Build configuration list for PBXNativeTarget "Checkers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BBB38A926566D3B00A94949 /* Debug */,
+				5BBB38AA26566D3B00A94949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BBB38AB26566D3B00A94949 /* Build configuration list for PBXNativeTarget "CheckersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BBB38AC26566D3B00A94949 /* Debug */,
+				5BBB38AD26566D3B00A94949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BBB38AE26566D3B00A94949 /* Build configuration list for PBXNativeTarget "CheckersUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BBB38AF26566D3B00A94949 /* Debug */,
+				5BBB38B026566D3B00A94949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5BBB388426566D3900A94949 /* Checkers.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5BBB388526566D3900A94949 /* Checkers.xcdatamodel */,
+			);
+			currentVersion = 5BBB388526566D3900A94949 /* Checkers.xcdatamodel */;
+			path = Checkers.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5BBB387326566D3900A94949 /* Project object */;
+}
